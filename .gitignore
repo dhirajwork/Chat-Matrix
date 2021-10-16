@@ -18,6 +18,10 @@ __pycache__/
 # stuff that is likely to exist when you run a server locally
 
 
+/env/
+/.venv*/
+
+
 # IDEs
 /.idea/
 /.ropeproject/
