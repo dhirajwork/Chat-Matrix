@@ -16,19 +16,7 @@ _trial_temp*/
 __pycache__/
 
 # stuff that is likely to exist when you run a server locally
-/*.db
-/*.log
-/*.log.*
-/*.log.config
-/*.pid
-/.python-version
-/*.signing.key
-/env/
-/.venv*/
-/homeserver*.yaml
-/logs
-/media_store/
-/uploads
+
 
 # IDEs
 /.idea/
