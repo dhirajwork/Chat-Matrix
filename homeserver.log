@@ -1,0 +1,298 @@
+2021-10-18 07:56:52,352 - root - 338 - WARNING - main - ***** STARTING SERVER *****
+2021-10-18 07:56:52,352 - root - 339 - WARNING - main - Server /home/azureuser/chat-matrix/synapse/synapse/app/homeserver.py version 1.45.0rc2 (b=main,0bfab61)
+2021-10-18 07:56:52,352 - root - 340 - INFO - main - Server hostname: 23.96.99.63
+2021-10-18 07:56:52,352 - root - 341 - INFO - main - Instance name: master
+2021-10-18 07:56:52,352 - synapse.app.homeserver - 360 - INFO - main - Setting up server
+2021-10-18 07:56:52,352 - synapse.server - 309 - INFO - main - Setting up.
+2021-10-18 07:56:52,376 - synapse.storage.databases - 49 - INFO - main - [database config 'master']: Checking database server
+2021-10-18 07:56:52,376 - synapse.storage.databases - 52 - INFO - main - [database config 'master']: Preparing for databases ['main', 'state']
+2021-10-18 07:56:52,376 - synapse.storage.prepare_database - 116 - INFO - main - ['main', 'state']: Checking existing schema version
+2021-10-18 07:56:52,447 - synapse.storage.prepare_database - 120 - INFO - main - ['main', 'state']: Existing schema is 65 (+1 deltas)
+2021-10-18 07:56:52,447 - synapse.storage.databases.main - 350 - INFO - main - Checking database for consistency with configuration...
+2021-10-18 07:56:52,451 - synapse.storage.prepare_database - 407 - INFO - main - Applying schema deltas for v65
+2021-10-18 07:56:52,469 - synapse.storage.prepare_database - 539 - INFO - main - Schema now up to date
+2021-10-18 07:56:52,500 - synapse.storage.databases - 67 - INFO - main - [database config 'master']: Starting 'main' database
+2021-10-18 07:56:52,500 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_stream(stream_id)
+2021-10-18 07:56:52,503 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for user_signature_stream(stream_id)
+2021-10-18 07:56:52,506 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_outbound_pokes(stream_id)
+2021-10-18 07:56:52,510 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for e2e_cross_signing_keys(stream_id)
+2021-10-18 07:56:52,513 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for event_reports(id)
+2021-10-18 07:56:52,516 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules(id)
+2021-10-18 07:56:52,519 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_enable(id)
+2021-10-18 07:56:52,522 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for local_group_updates(stream_id)
+2021-10-18 07:56:52,525 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for receipts_linearized(stream_id)
+2021-10-18 07:56:52,529 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_account_data(stream_id)
+2021-10-18 07:56:52,532 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_tags_revisions(stream_id)
+2021-10-18 07:56:52,536 - synapse.storage.databases.main.event_push_actions - 537 - INFO - main - Searching for stream ordering 1 month ago
+2021-10-18 07:56:52,536 - synapse.storage.databases.main.event_push_actions - 541 - INFO - main - Found stream ordering 1 month ago: it's 0
+2021-10-18 07:56:52,536 - synapse.storage.databases.main.event_push_actions - 544 - INFO - main - Searching for stream ordering 1 day ago
+2021-10-18 07:56:52,536 - synapse.storage.databases.main.event_push_actions - 548 - INFO - main - Found stream ordering 1 day ago: it's 0
+2021-10-18 07:56:52,536 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 07:56:52,536 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 07:56:52,537 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for ex_outlier_stream(event_stream_ordering)
+2021-10-18 07:56:52,540 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_inbox(stream_id)
+2021-10-18 07:56:52,551 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for pushers(id)
+2021-10-18 07:56:52,554 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for deleted_pushers(stream_id)
+2021-10-18 07:56:52,558 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_stream(stream_id)
+2021-10-18 07:56:52,564 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for presence_stream(stream_id)
+2021-10-18 07:56:52,577 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for access_tokens(id)
+2021-10-18 07:56:52,580 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for refresh_tokens(id)
+2021-10-18 07:56:52,587 - synapse.storage.databases - 84 - INFO - main - [database config 'master']: Starting 'state' database
+2021-10-18 07:56:52,587 - synapse.storage.databases - 99 - INFO - main - [database config 'master']: prepared
+2021-10-18 07:56:52,587 - synapse.server - 312 - INFO - main - Finished setting up.
+2021-10-18 07:56:52,603 - synapse.push.pusher - 38 - INFO - main - email enable notifs: False
+2021-10-18 07:56:52,611 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.device_list_update'
+2021-10-18 07:56:52,611 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'profile'
+2021-10-18 07:56:52,612 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.presence'
+2021-10-18 07:56:52,612 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.typing'
+2021-10-18 07:56:52,613 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'directory'
+2021-10-18 07:56:52,613 - twisted - 271 - INFO - main - Redirected stdout/stderr to logs
+2021-10-18 07:56:52,614 - synapse.app.homeserver - 127 - INFO - sentinel - Running
+2021-10-18 07:56:52,615 - synapse.app.homeserver - 29 - INFO - sentinel - Set file limit to: 1048576
+2021-10-18 07:56:52,616 - synapse.handlers.deactivate_account - 209 - INFO - user_parter_loop-0 - Starting user parter
+2021-10-18 07:56:52,623 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.receipt'
+2021-10-18 07:56:52,624 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'org.matrix.signing_key_update'
+2021-10-18 07:56:52,624 - synapse.federation.federation_server - 1228 - INFO - sentinel - Registering federation query handler for 'client_keys'
+2021-10-18 07:56:52,624 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.direct_to_device'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.health.HealthResource object at 0x7fcf4d15c5b0> to path b'/health'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fcf4d15c6a0> to path b'/_matrix/client/api/v1'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fcf4d15c6a0> to path b'/_matrix/client/r0'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fcf4d15c6a0> to path b'/_matrix/client/unstable'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fcf4d15c6a0> to path b'/_matrix/client/v2_alpha'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fcf4d15c6a0> to path b'/_matrix/client/versions'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.well_known.WellKnownResource object at 0x7fcf4c8a84c0> to path b'/.well-known/matrix/client'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.admin.AdminRestResource object at 0x7fcf4c8a8580> to path b'/_synapse/admin'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.pick_idp.PickIdpResource object at 0x7fcf4c8afa00> to path b'/_synapse/client/pick_idp'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <twisted.web.resource.Resource object at 0x7fcf4c8afb50> to path b'/_synapse/client/pick_username'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.new_user_consent.NewUserConsentResource object at 0x7fcf4c8afd90> to path b'/_synapse/client/new_user_consent'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.sso_register.SsoRegisterResource object at 0x7fcf4c8afdc0> to path b'/_synapse/client/sso_register'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching FilePath('/home/azureuser/chat-matrix/synapse/synapse/static') to path b'/_matrix/static'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fcf4c8ba0a0> to path b'/_matrix/media/r0'
+2021-10-18 07:56:52,636 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fcf4c8ba0a0> to path b'/_matrix/media/v1'
+2021-10-18 07:56:52,637 - twisted - 271 - INFO - sentinel - SynapseSite starting on 8008
+2021-10-18 07:56:52,638 - twisted - 271 - INFO - sentinel - SynapseSite starting on 8008
+2021-10-18 07:56:52,637 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.federation.transport.server.TransportLayerServer object at 0x7fcf4c8ba250> to path b'/_matrix/federation'
+2021-10-18 07:56:52,637 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.key.v2.KeyApiV2Resource object at 0x7fcf4c8ba3a0> to path b'/_matrix/key/v2'
+2021-10-18 07:56:52,638 - synapse.app.homeserver - 164 - INFO - sentinel - Synapse now listening on TCP port 8008
+2021-10-18 07:56:52,638 - synapse.app.homeserver - 194 - INFO - sentinel - Scheduling stats reporting for 3 hour intervals
+2021-10-18 07:56:52,702 - synapse.storage.background_updates - 107 - INFO - background_updates-0 - Starting background schema updates
+2021-10-18 07:56:52,702 - synapse.handlers.deactivate_account - 219 - INFO - user_parter_loop-0 - User parter finished: stopping
+2021-10-18 07:56:52,704 - synapse.push.pusherpool - 311 - INFO - start_pushers-0 - Started pushers
+2021-10-18 07:56:53,704 - synapse.storage.background_updates - 120 - INFO - background_updates-0 - No more background updates to do. Unscheduling background update task.
+2021-10-18 08:00:52,626 - synapse.metrics - 598 - INFO - sentinel - Collecting gc 1
+2021-10-18 08:01:52,639 - synapse.app.homeserver - 45 - INFO - phone_stats_home-0 - Gathering stats for reporting
+2021-10-18 08:01:52,639 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-0 - Calling _generate_user_daily_visits
+2021-10-18 08:01:52,660 - synapse.app.homeserver - 134 - INFO - phone_stats_home-0 - Reporting stats to https://matrix.org/report-usage-stats/push: {'memory_rss': 91224, 'cpu_average': 0, 'homeserver': '23.96.99.63', 'server_context': None, 'timestamp': 1634544112, 'uptime_seconds': 300, 'python_version': '3.8.10', 'total_users': 0, 'total_nonbridged_users': 0, 'daily_user_type_native': 0, 'daily_user_type_guest': 0, 'daily_user_type_bridged': 0, 'total_room_count': 0, 'daily_active_users': 0, 'monthly_active_users': 0, 'daily_active_e2ee_rooms': 0, 'daily_e2ee_messages': 0, 'daily_sent_e2ee_messages': 0, 'daily_active_rooms': 0, 'daily_messages': 0, 'daily_sent_messages': 0, 'r30_users_all': 0, 'r30v2_users_ios': 0, 'r30v2_users_android': 0, 'r30v2_users_web': 0, 'r30v2_users_electron': 0, 'r30v2_users_all': 0, 'cache_factor': 0.5, 'event_cache_size': 10240, 'database_engine': 'sqlite3', 'database_server_version': '3.31.1', 'log_level': 'INFO'}
+2021-10-18 08:01:52,990 - synapse.http.client - 443 - INFO - phone_stats_home-0 - Received response to PUT https://matrix.org/report-usage-stats/push: 200
+2021-10-18 08:06:52,538 - synapse.storage.databases.main.event_push_actions - 537 - INFO - event_push_action_stream_orderings-0 - Searching for stream ordering 1 month ago
+2021-10-18 08:06:52,538 - synapse.storage.databases.main.event_push_actions - 541 - INFO - event_push_action_stream_orderings-0 - Found stream ordering 1 month ago: it's 0
+2021-10-18 08:06:52,538 - synapse.storage.databases.main.event_push_actions - 544 - INFO - event_push_action_stream_orderings-0 - Searching for stream ordering 1 day ago
+2021-10-18 08:06:52,538 - synapse.storage.databases.main.event_push_actions - 548 - INFO - event_push_action_stream_orderings-0 - Found stream ordering 1 day ago: it's 0
+2021-10-18 08:06:52,542 - synapse.metrics - 598 - INFO - sentinel - Collecting gc 1
+2021-10-18 08:06:52,639 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-1 - Calling _generate_user_daily_visits
+2021-10-18 08:11:52,639 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-2 - Calling _generate_user_daily_visits
+2021-10-18 08:12:43,317 - twisted - 271 - INFO - sighup-0 - Received SIGTERM, shutting down.
+2021-10-18 08:12:43,324 - root - 305 - INFO - sighup-0 - Reloaded log config from /home/azureuser/chat-matrix/synapse/23.96.99.63.log.config due to SIGHUP
+2021-10-18 08:12:43,339 - twisted - 271 - INFO - sentinel - (TCP Port 8008 Closed)
+2021-10-18 08:12:43,339 - twisted - 271 - INFO - sentinel - (TCP Port 8008 Closed)
+2021-10-18 08:12:43,343 - twisted - 271 - INFO - sentinel - Main loop terminated.
+2021-10-18 08:12:43,337 - root - 305 - INFO - sighup-1 - Reloaded log config from /home/azureuser/chat-matrix/synapse/23.96.99.63.log.config due to SIGHUP
+2021-10-18 08:12:43,338 - synapse.storage.databases.main.lock - 79 - INFO - LockStore._on_shutdown-0 - Dropping held locks due to shutdown
+2021-10-18 08:12:43,338 - synapse.storage.databases.main.lock - 88 - INFO - LockStore._on_shutdown-0 - Dropped locks due to shutdown
+2021-10-18 08:12:43,338 - synapse.handlers.presence - 749 - INFO - presence.on_shutdown-0 - Performing _on_shutdown. Persisting 0 unpersisted changes
+2021-10-18 08:12:43,338 - synapse.handlers.presence - 762 - INFO - presence.on_shutdown-0 - Finished _on_shutdown
+2021-10-18 08:12:43,338 - synapse.app._base - 495 - INFO - sentinel - Shutting down...
+2021-10-18 13:04:11,372 - root - 338 - WARNING - main - ***** STARTING SERVER *****
+2021-10-18 13:04:11,381 - root - 339 - WARNING - main - Server /home/azureuser/chat-matrix/synapse/synapse/app/homeserver.py version 1.45.0rc2 (b=main,0bfab61)
+2021-10-18 13:04:11,381 - root - 340 - INFO - main - Server hostname: 23.96.99.63
+2021-10-18 13:04:11,381 - root - 341 - INFO - main - Instance name: master
+2021-10-18 13:04:11,381 - synapse.app.homeserver - 360 - INFO - main - Setting up server
+2021-10-18 13:04:11,381 - synapse.server - 309 - INFO - main - Setting up.
+2021-10-18 13:04:11,391 - synapse.storage.databases - 49 - INFO - main - [database config 'master']: Checking database server
+2021-10-18 13:04:11,391 - synapse.storage.databases - 52 - INFO - main - [database config 'master']: Preparing for databases ['main', 'state']
+2021-10-18 13:04:11,391 - synapse.storage.prepare_database - 116 - INFO - main - ['main', 'state']: Checking existing schema version
+2021-10-18 13:04:11,482 - synapse.storage.prepare_database - 120 - INFO - main - ['main', 'state']: Existing schema is 65 (+1 deltas)
+2021-10-18 13:04:11,482 - synapse.storage.databases.main - 350 - INFO - main - Checking database for consistency with configuration...
+2021-10-18 13:04:11,486 - synapse.storage.prepare_database - 407 - INFO - main - Applying schema deltas for v65
+2021-10-18 13:04:11,504 - synapse.storage.prepare_database - 539 - INFO - main - Schema now up to date
+2021-10-18 13:04:11,523 - synapse.storage.databases - 67 - INFO - main - [database config 'master']: Starting 'main' database
+2021-10-18 13:04:11,523 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_stream(stream_id)
+2021-10-18 13:04:11,527 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for user_signature_stream(stream_id)
+2021-10-18 13:04:11,530 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_outbound_pokes(stream_id)
+2021-10-18 13:04:11,534 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for e2e_cross_signing_keys(stream_id)
+2021-10-18 13:04:11,537 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for event_reports(id)
+2021-10-18 13:04:11,540 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules(id)
+2021-10-18 13:04:11,541 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_enable(id)
+2021-10-18 13:04:11,542 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for local_group_updates(stream_id)
+2021-10-18 13:04:11,545 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for receipts_linearized(stream_id)
+2021-10-18 13:04:11,549 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_account_data(stream_id)
+2021-10-18 13:04:11,552 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_tags_revisions(stream_id)
+2021-10-18 13:04:11,556 - synapse.storage.databases.main.event_push_actions - 537 - INFO - main - Searching for stream ordering 1 month ago
+2021-10-18 13:04:11,556 - synapse.storage.databases.main.event_push_actions - 541 - INFO - main - Found stream ordering 1 month ago: it's 0
+2021-10-18 13:04:11,556 - synapse.storage.databases.main.event_push_actions - 544 - INFO - main - Searching for stream ordering 1 day ago
+2021-10-18 13:04:11,557 - synapse.storage.databases.main.event_push_actions - 548 - INFO - main - Found stream ordering 1 day ago: it's 0
+2021-10-18 13:04:11,557 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 13:04:11,557 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 13:04:11,557 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for ex_outlier_stream(event_stream_ordering)
+2021-10-18 13:04:11,562 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_inbox(stream_id)
+2021-10-18 13:04:11,573 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for pushers(id)
+2021-10-18 13:04:11,577 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for deleted_pushers(stream_id)
+2021-10-18 13:04:11,580 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_stream(stream_id)
+2021-10-18 13:04:11,587 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for presence_stream(stream_id)
+2021-10-18 13:04:11,601 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for access_tokens(id)
+2021-10-18 13:04:11,604 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for refresh_tokens(id)
+2021-10-18 13:04:11,611 - synapse.storage.databases - 84 - INFO - main - [database config 'master']: Starting 'state' database
+2021-10-18 13:04:11,612 - synapse.storage.databases - 99 - INFO - main - [database config 'master']: prepared
+2021-10-18 13:04:11,612 - synapse.server - 312 - INFO - main - Finished setting up.
+2021-10-18 13:04:11,631 - synapse.push.pusher - 38 - INFO - main - email enable notifs: False
+2021-10-18 13:04:11,640 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.device_list_update'
+2021-10-18 13:04:11,640 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'profile'
+2021-10-18 13:04:11,641 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.presence'
+2021-10-18 13:04:11,642 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.typing'
+2021-10-18 13:04:11,642 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'directory'
+2021-10-18 13:04:11,643 - twisted - 271 - INFO - main - Redirected stdout/stderr to logs
+2021-10-18 13:04:11,643 - synapse.app.homeserver - 127 - INFO - sentinel - Running
+2021-10-18 13:04:11,645 - synapse.app.homeserver - 29 - INFO - sentinel - Set file limit to: 1048576
+2021-10-18 13:04:11,646 - synapse.handlers.deactivate_account - 209 - INFO - user_parter_loop-0 - Starting user parter
+2021-10-18 13:04:11,656 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.receipt'
+2021-10-18 13:04:11,656 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'org.matrix.signing_key_update'
+2021-10-18 13:04:11,656 - synapse.federation.federation_server - 1228 - INFO - sentinel - Registering federation query handler for 'client_keys'
+2021-10-18 13:04:11,656 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.direct_to_device'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.health.HealthResource object at 0x7fdb603a8ee0> to path b'/health'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fdb603a8fd0> to path b'/_matrix/client/api/v1'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fdb603a8fd0> to path b'/_matrix/client/r0'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fdb603a8fd0> to path b'/_matrix/client/unstable'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fdb603a8fd0> to path b'/_matrix/client/v2_alpha'
+2021-10-18 13:04:11,674 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fdb603a8fd0> to path b'/_matrix/client/versions'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.well_known.WellKnownResource object at 0x7fdb602ff0d0> to path b'/.well-known/matrix/client'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.admin.AdminRestResource object at 0x7fdb602ff190> to path b'/_synapse/admin'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.pick_idp.PickIdpResource object at 0x7fdb60306610> to path b'/_synapse/client/pick_idp'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <twisted.web.resource.Resource object at 0x7fdb60306760> to path b'/_synapse/client/pick_username'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.new_user_consent.NewUserConsentResource object at 0x7fdb603069a0> to path b'/_synapse/client/new_user_consent'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.sso_register.SsoRegisterResource object at 0x7fdb603069d0> to path b'/_synapse/client/sso_register'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching FilePath('/home/azureuser/chat-matrix/synapse/synapse/static') to path b'/_matrix/static'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fdb60306c70> to path b'/_matrix/media/r0'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fdb60306c70> to path b'/_matrix/media/v1'
+2021-10-18 13:04:11,676 - twisted - 271 - INFO - sentinel - SynapseSite starting on 8008
+2021-10-18 13:04:11,677 - twisted - 271 - INFO - sentinel - SynapseSite starting on 8008
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.federation.transport.server.TransportLayerServer object at 0x7fdb60306e20> to path b'/_matrix/federation'
+2021-10-18 13:04:11,675 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.key.v2.KeyApiV2Resource object at 0x7fdb60306f70> to path b'/_matrix/key/v2'
+2021-10-18 13:04:11,677 - synapse.app.homeserver - 164 - INFO - sentinel - Synapse now listening on TCP port 8008
+2021-10-18 13:04:11,677 - synapse.app.homeserver - 194 - INFO - sentinel - Scheduling stats reporting for 3 hour intervals
+2021-10-18 13:04:11,753 - synapse.storage.background_updates - 107 - INFO - background_updates-0 - Starting background schema updates
+2021-10-18 13:04:11,753 - synapse.handlers.deactivate_account - 219 - INFO - user_parter_loop-0 - User parter finished: stopping
+2021-10-18 13:04:11,755 - synapse.push.pusherpool - 311 - INFO - start_pushers-0 - Started pushers
+2021-10-18 13:04:12,754 - synapse.storage.background_updates - 120 - INFO - background_updates-0 - No more background updates to do. Unscheduling background update task.
+2021-10-18 13:07:42,667 - synapse.access.http.8008 - 400 - INFO - GET-0 - 127.0.0.1 - 8008 - {None} Processed request: 0.000sec/-0.000sec (0.000sec, 0.000sec) (0.000sec/0.000sec/0) 208B 302 "GET / HTTP/1.1" "curl/7.68.0" [0 dbevts]
+2021-10-18 13:08:11,643 - synapse.metrics - 598 - INFO - sentinel - Collecting gc 1
+2021-10-18 13:09:11,678 - synapse.app.homeserver - 45 - INFO - phone_stats_home-0 - Gathering stats for reporting
+2021-10-18 13:09:11,679 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-0 - Calling _generate_user_daily_visits
+2021-10-18 13:09:11,703 - synapse.app.homeserver - 134 - INFO - phone_stats_home-0 - Reporting stats to https://matrix.org/report-usage-stats/push: {'memory_rss': 93588, 'cpu_average': 0, 'homeserver': '23.96.99.63', 'server_context': None, 'timestamp': 1634562551, 'uptime_seconds': 300, 'python_version': '3.8.10', 'total_users': 0, 'total_nonbridged_users': 0, 'daily_user_type_native': 0, 'daily_user_type_guest': 0, 'daily_user_type_bridged': 0, 'total_room_count': 0, 'daily_active_users': 0, 'monthly_active_users': 0, 'daily_active_e2ee_rooms': 0, 'daily_e2ee_messages': 0, 'daily_sent_e2ee_messages': 0, 'daily_active_rooms': 0, 'daily_messages': 0, 'daily_sent_messages': 0, 'r30_users_all': 0, 'r30v2_users_ios': 0, 'r30v2_users_android': 0, 'r30v2_users_web': 0, 'r30v2_users_electron': 0, 'r30v2_users_all': 0, 'cache_factor': 0.5, 'event_cache_size': 10240, 'database_engine': 'sqlite3', 'database_server_version': '3.31.1', 'log_level': 'INFO'}
+2021-10-18 13:09:11,851 - synapse.http.client - 443 - INFO - phone_stats_home-0 - Received response to PUT https://matrix.org/report-usage-stats/push: 200
+2021-10-18 13:14:11,558 - synapse.storage.databases.main.event_push_actions - 537 - INFO - event_push_action_stream_orderings-0 - Searching for stream ordering 1 month ago
+2021-10-18 13:14:11,558 - synapse.storage.databases.main.event_push_actions - 541 - INFO - event_push_action_stream_orderings-0 - Found stream ordering 1 month ago: it's 0
+2021-10-18 13:14:11,558 - synapse.storage.databases.main.event_push_actions - 544 - INFO - event_push_action_stream_orderings-0 - Searching for stream ordering 1 day ago
+2021-10-18 13:14:11,558 - synapse.storage.databases.main.event_push_actions - 548 - INFO - event_push_action_stream_orderings-0 - Found stream ordering 1 day ago: it's 0
+2021-10-18 13:14:11,564 - synapse.metrics - 598 - INFO - sentinel - Collecting gc 1
+2021-10-18 13:14:11,679 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-1 - Calling _generate_user_daily_visits
+2021-10-18 13:17:23,705 - root - 338 - WARNING - main - ***** STARTING SERVER *****
+2021-10-18 13:17:23,705 - root - 339 - WARNING - main - Server /home/azureuser/chat-matrix/synapse/synapse/app/homeserver.py version 1.45.0rc2 (b=main,16f0130)
+2021-10-18 13:17:23,706 - root - 340 - INFO - main - Server hostname: 23.96.99.63
+2021-10-18 13:17:23,706 - root - 341 - INFO - main - Instance name: master
+2021-10-18 13:17:23,706 - synapse.app.homeserver - 360 - INFO - main - Setting up server
+2021-10-18 13:17:23,706 - synapse.server - 309 - INFO - main - Setting up.
+2021-10-18 13:17:23,707 - synapse.storage.databases - 49 - INFO - main - [database config 'master']: Checking database server
+2021-10-18 13:17:23,707 - synapse.storage.databases - 52 - INFO - main - [database config 'master']: Preparing for databases ['main', 'state']
+2021-10-18 13:17:23,708 - synapse.storage.prepare_database - 116 - INFO - main - ['main', 'state']: Checking existing schema version
+2021-10-18 13:17:23,711 - synapse.storage.prepare_database - 120 - INFO - main - ['main', 'state']: Existing schema is 65 (+1 deltas)
+2021-10-18 13:17:23,711 - synapse.storage.databases.main - 350 - INFO - main - Checking database for consistency with configuration...
+2021-10-18 13:17:23,711 - synapse.storage.prepare_database - 407 - INFO - main - Applying schema deltas for v65
+2021-10-18 13:17:23,712 - synapse.storage.prepare_database - 539 - INFO - main - Schema now up to date
+2021-10-18 13:17:23,731 - synapse.storage.databases - 67 - INFO - main - [database config 'master']: Starting 'main' database
+2021-10-18 13:17:23,731 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_stream(stream_id)
+2021-10-18 13:17:23,731 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for user_signature_stream(stream_id)
+2021-10-18 13:17:23,732 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_lists_outbound_pokes(stream_id)
+2021-10-18 13:17:23,732 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for e2e_cross_signing_keys(stream_id)
+2021-10-18 13:17:23,732 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for event_reports(id)
+2021-10-18 13:17:23,732 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules(id)
+2021-10-18 13:17:23,732 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_enable(id)
+2021-10-18 13:17:23,733 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for local_group_updates(stream_id)
+2021-10-18 13:17:23,733 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for receipts_linearized(stream_id)
+2021-10-18 13:17:23,733 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_account_data(stream_id)
+2021-10-18 13:17:23,734 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for room_tags_revisions(stream_id)
+2021-10-18 13:17:23,735 - synapse.storage.databases.main.event_push_actions - 537 - INFO - main - Searching for stream ordering 1 month ago
+2021-10-18 13:17:23,735 - synapse.storage.databases.main.event_push_actions - 541 - INFO - main - Found stream ordering 1 month ago: it's 0
+2021-10-18 13:17:23,735 - synapse.storage.databases.main.event_push_actions - 544 - INFO - main - Searching for stream ordering 1 day ago
+2021-10-18 13:17:23,735 - synapse.storage.databases.main.event_push_actions - 548 - INFO - main - Found stream ordering 1 day ago: it's 0
+2021-10-18 13:17:23,735 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 13:17:23,735 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for events(stream_ordering)
+2021-10-18 13:17:23,736 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for ex_outlier_stream(event_stream_ordering)
+2021-10-18 13:17:23,737 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for device_inbox(stream_id)
+2021-10-18 13:17:23,738 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for pushers(id)
+2021-10-18 13:17:23,738 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for deleted_pushers(stream_id)
+2021-10-18 13:17:23,738 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for push_rules_stream(stream_id)
+2021-10-18 13:17:23,739 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for presence_stream(stream_id)
+2021-10-18 13:17:23,740 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for access_tokens(id)
+2021-10-18 13:17:23,740 - synapse.storage.util.id_generators - 76 - INFO - main - initialising stream generator for refresh_tokens(id)
+2021-10-18 13:17:23,741 - synapse.storage.databases - 84 - INFO - main - [database config 'master']: Starting 'state' database
+2021-10-18 13:17:23,741 - synapse.storage.databases - 99 - INFO - main - [database config 'master']: prepared
+2021-10-18 13:17:23,742 - synapse.server - 312 - INFO - main - Finished setting up.
+2021-10-18 13:17:23,752 - synapse.push.pusher - 38 - INFO - main - email enable notifs: False
+2021-10-18 13:17:23,763 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.device_list_update'
+2021-10-18 13:17:23,763 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'profile'
+2021-10-18 13:17:23,764 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.presence'
+2021-10-18 13:17:23,765 - synapse.federation.federation_server - 1208 - INFO - main - Registering federation EDU handler for 'm.typing'
+2021-10-18 13:17:23,765 - synapse.federation.federation_server - 1228 - INFO - main - Registering federation query handler for 'directory'
+2021-10-18 13:17:23,766 - twisted - 271 - INFO - main - Redirected stdout/stderr to logs
+2021-10-18 13:17:23,766 - synapse.app.homeserver - 127 - INFO - sentinel - Running
+2021-10-18 13:17:23,768 - synapse.app.homeserver - 29 - INFO - sentinel - Set file limit to: 1048576
+2021-10-18 13:17:23,769 - synapse.handlers.deactivate_account - 209 - INFO - user_parter_loop-0 - Starting user parter
+2021-10-18 13:17:23,783 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.receipt'
+2021-10-18 13:17:23,783 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'org.matrix.signing_key_update'
+2021-10-18 13:17:23,783 - synapse.federation.federation_server - 1228 - INFO - sentinel - Registering federation query handler for 'client_keys'
+2021-10-18 13:17:23,783 - synapse.federation.federation_server - 1208 - INFO - sentinel - Registering federation EDU handler for 'm.direct_to_device'
+2021-10-18 13:17:23,796 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.health.HealthResource object at 0x7fd51804d790> to path b'/health'
+2021-10-18 13:17:23,796 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fd51804d880> to path b'/_matrix/client/api/v1'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fd51804d880> to path b'/_matrix/client/r0'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fd51804d880> to path b'/_matrix/client/unstable'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fd51804d880> to path b'/_matrix/client/v2_alpha'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.ClientRestResource object at 0x7fd51804d880> to path b'/_matrix/client/versions'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.well_known.WellKnownResource object at 0x7fd51365b8b0> to path b'/.well-known/matrix/client'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.admin.AdminRestResource object at 0x7fd51365b970> to path b'/_synapse/admin'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.pick_idp.PickIdpResource object at 0x7fd513661df0> to path b'/_synapse/client/pick_idp'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <twisted.web.resource.Resource object at 0x7fd513661f40> to path b'/_synapse/client/pick_username'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.new_user_consent.NewUserConsentResource object at 0x7fd51366c1c0> to path b'/_synapse/client/new_user_consent'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.synapse.client.sso_register.SsoRegisterResource object at 0x7fd51366c1f0> to path b'/_synapse/client/sso_register'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching FilePath('/home/azureuser/chat-matrix/synapse/synapse/static') to path b'/_matrix/static'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fd51366c490> to path b'/_matrix/media/r0'
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.media.v1.media_repository.MediaRepositoryResource object at 0x7fd51366c490> to path b'/_matrix/media/v1'
+2021-10-18 13:17:23,798 - twisted - 271 - INFO - sentinel - SynapseSite starting on 8080
+2021-10-18 13:17:23,797 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.federation.transport.server.TransportLayerServer object at 0x7fd51366c640> to path b'/_matrix/federation'
+2021-10-18 13:17:23,798 - synapse.util.httpresourcetree - 47 - INFO - sentinel - Attaching <synapse.rest.key.v2.KeyApiV2Resource object at 0x7fd51366c790> to path b'/_matrix/key/v2'
+2021-10-18 13:17:23,799 - synapse.app - 46 - WARNING - sentinel - Failed to listen on 0.0.0.0, continuing because listening on [::]
+2021-10-18 13:17:23,799 - synapse.app.homeserver - 164 - INFO - sentinel - Synapse now listening on TCP port 8080
+2021-10-18 13:17:23,800 - synapse.app.homeserver - 194 - INFO - sentinel - Scheduling stats reporting for 3 hour intervals
+2021-10-18 13:17:23,875 - synapse.storage.background_updates - 107 - INFO - background_updates-0 - Starting background schema updates
+2021-10-18 13:17:23,875 - synapse.handlers.deactivate_account - 219 - INFO - user_parter_loop-0 - User parter finished: stopping
+2021-10-18 13:17:23,876 - synapse.push.pusherpool - 311 - INFO - start_pushers-0 - Started pushers
+2021-10-18 13:17:24,877 - synapse.storage.background_updates - 120 - INFO - background_updates-0 - No more background updates to do. Unscheduling background update task.
+2021-10-18 13:17:33,087 - synapse.access.http.8080 - 400 - INFO - GET-0 - ::ffff:103.109.144.44 - 8080 - {None} Processed request: 0.000sec/-0.000sec (0.000sec, 0.000sec) (0.000sec/0.000sec/0) 208B 302 "GET / HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" [0 dbevts]
+2021-10-18 13:17:34,291 - synapse.access.http.8080 - 400 - INFO - GET-1 - ::ffff:103.109.144.44 - 8080 - {None} Processed request: 0.001sec/-0.000sec (0.000sec, 0.000sec) (0.000sec/0.000sec/0) 210B 302 "GET /_matrix/static HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" [0 dbevts]
+2021-10-18 13:17:34,630 - synapse.access.http.8080 - 400 - INFO - GET-2 - ::ffff:103.109.144.44 - 8080 - {None} Processed request: 0.011sec/-0.000sec (0.000sec, 0.000sec) (0.000sec/0.000sec/0) 10168B 200 "GET /_matrix/static/ HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" [0 dbevts]
+2021-10-18 13:17:35,359 - synapse.access.http.8080 - 400 - INFO - GET-3 - ::ffff:103.109.144.44 - 8080 - {None} Processed request: 0.000sec/-0.000sec (0.000sec, 0.000sec) (0.000sec/0.000sec/0) 153B 404 "GET /favicon.ico HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" [0 dbevts]
+2021-10-18 13:18:33,091 - twisted - 271 - INFO - sentinel - Timing out client: IPv6Address(type='TCP', host='::ffff:103.109.144.44', port=14680, flowInfo=0, scopeID=0)
+2021-10-18 13:18:33,326 - twisted - 271 - INFO - sentinel - Timing out client: IPv6Address(type='TCP', host='::ffff:103.109.144.44', port=8547, flowInfo=0, scopeID=0)
+2021-10-18 13:18:35,360 - twisted - 271 - INFO - sentinel - Timing out client: IPv6Address(type='TCP', host='::ffff:103.109.144.44', port=24819, flowInfo=0, scopeID=0)
+2021-10-18 13:21:08,740 - synapse.metrics - 598 - INFO - sentinel - Collecting gc 1
+2021-10-18 13:22:23,800 - synapse.app.homeserver - 45 - INFO - phone_stats_home-0 - Gathering stats for reporting
+2021-10-18 13:22:23,801 - synapse.storage.databases.main.metrics - 463 - INFO - generate_user_daily_visits-0 - Calling _generate_user_daily_visits
+2021-10-18 13:22:23,809 - synapse.app.homeserver - 134 - INFO - phone_stats_home-0 - Reporting stats to https://matrix.org/report-usage-stats/push: {'memory_rss': 91192, 'cpu_average': 0, 'homeserver': '23.96.99.63', 'server_context': None, 'timestamp': 1634563343, 'uptime_seconds': 300, 'python_version': '3.8.10', 'total_users': 0, 'total_nonbridged_users': 0, 'daily_user_type_native': 0, 'daily_user_type_guest': 0, 'daily_user_type_bridged': 0, 'total_room_count': 0, 'daily_active_users': 0, 'monthly_active_users': 0, 'daily_active_e2ee_rooms': 0, 'daily_e2ee_messages': 0, 'daily_sent_e2ee_messages': 0, 'daily_active_rooms': 0, 'daily_messages': 0, 'daily_sent_messages': 0, 'r30_users_all': 0, 'r30v2_users_ios': 0, 'r30v2_users_android': 0, 'r30v2_users_web': 0, 'r30v2_users_electron': 0, 'r30v2_users_all': 0, 'cache_factor': 0.5, 'event_cache_size': 10240, 'database_engine': 'sqlite3', 'database_server_version': '3.31.1', 'log_level': 'INFO'}
+2021-10-18 13:22:23,950 - synapse.http.client - 443 - INFO - phone_stats_home-0 - Received response to PUT https://matrix.org/report-usage-stats/push: 200
+2021-10-18 13:22:48,338 - twisted - 271 - INFO - sentinel - Received SIGINT, shutting down.
+2021-10-18 13:22:48,340 - twisted - 271 - INFO - sentinel - (TCP Port 8080 Closed)
+2021-10-18 13:22:48,342 - twisted - 271 - INFO - sentinel - Main loop terminated.
+2021-10-18 13:22:48,339 - synapse.storage.databases.main.lock - 79 - INFO - LockStore._on_shutdown-0 - Dropping held locks due to shutdown
+2021-10-18 13:22:48,339 - synapse.storage.databases.main.lock - 88 - INFO - LockStore._on_shutdown-0 - Dropped locks due to shutdown
+2021-10-18 13:22:48,339 - synapse.handlers.presence - 749 - INFO - presence.on_shutdown-0 - Performing _on_shutdown. Persisting 0 unpersisted changes
+2021-10-18 13:22:48,340 - synapse.handlers.presence - 762 - INFO - presence.on_shutdown-0 - Finished _on_shutdown
+2021-10-18 13:22:48,340 - synapse.app._base - 495 - INFO - sentinel - Shutting down...
